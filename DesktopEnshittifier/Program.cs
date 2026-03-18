@@ -41,7 +41,7 @@ class Enshittify
             }
             catch (Exception e)
             {
-                Console.WriteLine("sorry" + e.Message);
+                Console.WriteLine("sorry :(  Error: " + e.Message);
                 using (Process openAyaners = new Process())
                 {
                     openAyaners.StartInfo.FileName = @"C:\Program Files\Mozilla Firefox\firefox.exe";
